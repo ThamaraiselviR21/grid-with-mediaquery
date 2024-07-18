@@ -1,0 +1,217 @@
+*{   
+    text-transform: capitalize;  
+}
+body{
+   
+    margin: 0; 
+}
+.main{
+    background-image:linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.1), rgb(0,0,0,0.3) ), url(./IMG-20240713-WA0008.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 10px;  
+}
+.nav{
+   padding: 10px;
+   margin: 2px;
+   font-weight: 300;
+}
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+.con{
+    border: 2px solid white;
+}
+#pic{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 10px;  
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+    
+}
+.main2{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+   
+   
+}
+input{
+    
+    border-color: transparent; 
+    width: 50%;
+    padding: 10px;
+    background-color: white; 
+    outline: none;
+    
+}
+.search{
+    background-color:white;
+   
+   
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+   
+    margin: 10px;
+    
+}
+#box{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+}
+button{
+    padding: 10px;
+    background-color: red;
+    border: 2px solid red;
+    width: 100px;
+    border-radius: 4px;
+    font-size: medium;
+    color: white;
+}
+i{
+    margin: 10px;
+}
+
+.fa-search{
+    color: gray;
+}
+.fa-city{
+    background-color: black;
+    padding: 10px;
+}
+.cover{
+    background-color: rgb(211, 207, 207);
+}
+.main3{
+    padding: 30px;
+    padding-left: 0px;
+    
+}
+.main3>p{
+    color: gray;
+}
+.grid{
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px; 
+  
+}
+.item{
+    background-color:white; 
+    border-radius: 5px;
+    margin: 10px;
+    height: 140px;    
+}
+.photo{
+    width: 130px;
+    height: 140px;
+    border-radius: 3px;
+}
+.box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;    
+}
+.box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;  
+}
+.box3{
+    display: grid;
+   
+    grid-template-columns: auto auto;
+    gap: 10px;  
+}
+.box4{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; 
+}
+.box5{
+    display: grid;
+    grid-template-columns: auto auto;
+   gap: 10px;
+}
+.box6{
+    text-align: center;
+    align-content: center;
+  
+}
+.box6>p{
+   color: brown;
+}
+
+@media  screen and (max-width: 480px) {
+   .main2{
+    display: flex;
+    flex-direction: column;
+          
+    }
+    #box,input,button{
+        margin: 10px;
+    }
+    input{
+         
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+    .search{
+        padding: 0px;
+    }
+    button{
+       position: relative;
+       left: 35%;
+    }
+    .fa-search{
+        position: relative;
+        left: 45px;
+    }
+    .main3{
+        text-align: center;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+       
+    }
+    
+    .box1{
+        display: grid;
+        gap: 20px;
+    }
+    .box3,.box4,.box5{
+        display: grid;
+        gap: 25px;
+       
+       
+    }
+
+    
+}
